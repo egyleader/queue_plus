@@ -1,0 +1,7 @@
+
+include: package:lints/recommended.yaml
+linter:
+  rules:
+    require_trailing_commas: false
+    curly_braces_in_flow_control_structures: false
+    lines_longer_than_80_chars: false
