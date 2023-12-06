@@ -1,0 +1,14 @@
+name: queue_plus
+
+packages:
+  - ./
+
+scripts:
+  analyze:
+    exec: dart analyze .
+  ffmt:
+    exec: dart fix --apply &&  dart format --fix --set-exit-if-changed .
+  fgen:
+    exec: dart run build_runner build --delete-conflicting-outputs
+  fcln:
+    exec: flutter clean && flutter pub get 
