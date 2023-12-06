@@ -2,7 +2,7 @@ name: queue_plus
 description: A Very Good Project created by Very Good CLI.
 version: 0.1.0+1
 publish_to: none
-homepage: 
+homepage: https://github.com/egyleader/queue_plus
 environment:
   sdk: ">=3.0.0 <4.0.0"
 
