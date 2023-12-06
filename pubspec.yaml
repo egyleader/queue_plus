@@ -1,12 +1,13 @@
 name: queue_plus
 description: A Very Good Project created by Very Good CLI.
-version: 0.1.0+1
+version: 0.1.1
 publish_to: none
 homepage: https://github.com/egyleader/queue_plus
 environment:
   sdk: ">=3.0.0 <4.0.0"
 
 dev_dependencies:
+  melos: ^3.4.0
   mocktail: ^1.0.0
   test: ^1.19.2
   very_good_analysis: ^5.1.0
